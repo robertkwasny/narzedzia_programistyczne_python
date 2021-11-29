@@ -37,3 +37,11 @@ def main():
 
 if __name__ == "__main__":
     main()
+
+"""
+Usage example:
+
+python3 extra.py -x 2 -y 6 img.png
+
+python3 extra.py -xy 8 img.png
+"""
