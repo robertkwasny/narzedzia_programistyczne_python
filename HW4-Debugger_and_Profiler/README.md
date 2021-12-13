@@ -28,3 +28,9 @@ data structure to replace `list` is `queue`.
 
 Perhaps we could also try replacing `list` with `set` but we'd have to verify
 that the objects now included in `list` are all unique.
+
+In the [official Python docs](https://docs.python.org/3/tutorial/datastructures.html#using-lists-as-queues)
+we read that, when using lists as queues, "doing inserts or pops from the beginning of a 
+list is slow (because all of the other elements have to be shifted by one)." And that's exactly what's happening in the
+`dijkstra.py` program. The official docs suggest using `collections.deque` instead.
+
