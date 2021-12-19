@@ -7,9 +7,9 @@
 # As far as I can tell zero objects had exactly doubled in size, so I counted the objects which *at least* doubled
 # in size
 
-# 2. The sequences are monotonically increasing and therefore it's enough to compare the first element
+# 2. The sequences are monotonically increasing, and therefore it's enough to compare the first element
 # with the last element. That is, it's not possible that, for example, the 100th observation is double the size of
-# the first one but the 200th observation is less than double the first one. (I've ran the code to confirm this
+# the first one but the 200th observation is less than double the first one. (I've run the code to confirm this
 # but didn't include here for simplicity)
 
 
@@ -31,8 +31,6 @@ def find_doubled():
     print(f"The indices of doubled objects are: {doubled_objects}")
     print(f"There are {len(doubled_objects)} doubled objects")
 
-# Press the green button in the gutter to run the script.
+
 if __name__ == '__main__':
     find_doubled()
-
-# See PyCharm help at https://www.jetbrains.com/help/pycharm/
